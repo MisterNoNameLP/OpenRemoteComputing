@@ -17,14 +17,14 @@ With ORC you have a print function avaiable on the remote computers per default.
 The prints can be printet on screen and are accesibe as log at the ORC client.
 
 ORC has multiple layers of debugging logs.
-Giving you detailed information about whats going on (see orcExample.lua).
+Giving you detailed information about whats going on (see [orcExample.lua](https://github.com/MisterNoNameLP/OpenRemoteComputing/blob/main/src/client/orcExample.lua)).
 
 # Usage
 ### BIOS 
 Flash the bios_minified.lua to an eeprom. 
 
 ### Client
-At the moment there is only the orcExample.lua to see how it works.
+At the moment there is only the [orcExample.lua](https://github.com/MisterNoNameLP/OpenRemoteComputing/blob/main/src/client/orcExample.lua) to see how it works.
 
 If there is intresst I am willing to help or make a more detailed documentaion.  
 Please open an issue if so.
