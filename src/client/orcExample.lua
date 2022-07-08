@@ -13,7 +13,6 @@ local avaiableComputers = orc.get(port, timeout)
 
 --connect to the first avaiable remote computer
 local remoteComputer, err = nil, "No remote computer found"
-
 for name, computer in pairs(avaiableComputers) do
 	print("Connect to computer: " .. name)
 	remoteComputer, err = orc.new(computer) 
@@ -65,5 +64,5 @@ print("### Remote computer log ###")
 print("DEBUG:-----------------------------------------------\n" .. remoteComputer:getDebugLog(), "\n")
 print("USER:-------------------------------------------------\n" .. remoteComputer:getLog(), "\n")
 
-print("CLOSE STREAM")
+print("Close stream")
 remoteComputer:close()
