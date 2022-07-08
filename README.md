@@ -21,7 +21,7 @@ Giving you detailed information about whats going on (see [orcExample.lua](https
 
 # Usage
 ### BIOS 
-Flash the bios_minified.lua to an eeprom. 
+Flash the [bios_minified.lua](https://raw.githubusercontent.com/MisterNoNameLP/OpenRemoteComputing/main/src/bios/bios_minified.lua) to an eeprom. 
 
 ### Client
 At the moment there is only the [orcExample.lua](https://github.com/MisterNoNameLP/OpenRemoteComputing/blob/main/src/client/orcExample.lua) to see how it works.
