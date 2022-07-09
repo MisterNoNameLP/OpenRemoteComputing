@@ -53,7 +53,7 @@ print(ut.tostring(myTable))
 ]], "SCRIPT_NAME")
 
 
---wait until remoteComputer is done executing all scripts
+--wait until the remoteComputer is done executing all scripts
 while remoteComputer:status() ~= "IDLE" and remoteComputer:status() ~= "DEAD" do
 	os.sleep(.1)
 end

@@ -3,7 +3,7 @@ ORC is a simple and light weight library to execute scripts on remote computers 
 
 The idea is to setup one or multiple remote computers with this BIOS and never touch the EEPROM ever again.
 
-This is made to get a smooth workflow for developing drone scripts, but can be used for any other PC as well.
+This is made to get a smooth workflow for developing drone scripts, but can be used for any other computer as well.
 
 # Features
 ### Execute scripts 
@@ -18,8 +18,7 @@ This way you can easly execute complex programms on your remote computers.
 With ORC you have a print function avaiable on the remote computers per default.
 The prints can be printet on screen and are accesibe as log at the ORC client.
 
-ORC has multiple layers of debugging logs.
-Giving you detailed information about whats going on (see [orcExample.lua](https://github.com/MisterNoNameLP/OpenRemoteComputing/blob/main/src/client/orcExample.lua)).
+ORC has multiple layers of debugging logs, giving you detailed information about whats going on (see [orcExample.lua](https://github.com/MisterNoNameLP/OpenRemoteComputing/blob/main/src/client/orcExample.lua)).
 
 # Instalation
 Flash the [bios_minified.lua](https://raw.githubusercontent.com/MisterNoNameLP/OpenRemoteComputing/main/src/bios/bios_minified.lua) to an eeprom and craft it to your remote computers.
